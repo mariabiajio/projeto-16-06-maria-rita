@@ -6,54 +6,54 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Você encontra um robô no seu bairro que é capaz de organizar o lixo reciclável automaticamente. O que você faz?",
+        enunciado: "Você acaba de comprar um novo smartphone com inteligência artificial para facilitar suas tarefas diárias. O que faz?",
         alternativas: [
             {
-                texto: "Fico maravilhado e quero aprender como ele funciona.",
-                afirmacao: "Mostrou grande interesse em novas soluções tecnológicas para o meio ambiente."
+                texto: "Testo todos os recursos imediatamente para ver como a IA pode me ajudar.",
+                afirmacao: "Está empolgado com a inovação e quer explorar todas as funcionalidades da tecnologia."
             },
             {
-                texto: "Acho estranho e prefiro continuar separando o lixo manualmente.",
-                afirmacao: "Tem receio de depender de máquinas para uma tarefa importante."
+                texto: "Prefiro continuar com meu smartphone antigo, pois já estou acostumado.",
+                afirmacao: "Valoriza a simplicidade e resiste a mudanças em relação ao que já é confortável."
             }
         ]
     },
     {
-        enunciado: "Na escola, o professor propõe usar um chatbot de IA para ajudar com o conteúdo de história. O que você faz?",
+        enunciado: "Você vê uma propaganda de um aplicativo que promete aumentar sua produtividade usando IA. Você...",
         alternativas: [
             {
-                texto: "Aceito de imediato e quero ver o que ele pode ensinar.",
-                afirmacao: "Está aberto a novas formas de aprendizagem e tecnologia."
+                texto: "Baixo o aplicativo e começo a testar, querendo ver como ele pode melhorar meu trabalho.",
+                afirmacao: "Está sempre em busca de novas ferramentas tecnológicas para otimizar seu tempo."
             },
             {
-                texto: "Prefiro estudar sozinho, com os livros que tenho.",
-                afirmacao: "Valoriza o estudo tradicional e prefere aprender à sua própria maneira."
+                texto: "Ignoro o anúncio, pois acredito que já tenho tudo o que preciso para ser produtivo.",
+                afirmacao: "Prefere métodos tradicionais e não sente necessidade de depender de mais aplicativos."
             }
         ]
     },
     {
-        enunciado: "Você e seus amigos estão debatendo sobre o impacto de robôs na economia. Qual sua opinião?",
+        enunciado: "Você está comprando online e a loja sugere produtos baseados no seu histórico de compras. O que você faz?",
         alternativas: [
             {
-                texto: "Acredito que os robôs devem ajudar na produtividade, mas não substituir os trabalhadores.",
-                afirmacao: "Tem uma visão crítica e equilibrada sobre os impactos da automação."
+                texto: "Fico feliz com a sugestão e compro os produtos que a IA sugeriu.",
+                afirmacao: "Aceita a ajuda da tecnologia para facilitar suas compras e otimizar suas escolhas."
             },
             {
-                texto: "Acho que os robôs devem substituir o máximo possível de trabalho humano, para aumentar a eficiência.",
-                afirmacao: "É a favor da automação e acredita que ela pode melhorar os processos econômicos."
+                texto: "Desconfio das recomendações e prefiro procurar os produtos manualmente.",
+                afirmacao: "Fica desconfiado da influência de algoritmos nas suas decisões de compra."
             }
         ]
     },
     {
-        enunciado: "Como você se sentiria ao interagir com um robô que pudesse criar obras de arte? ",
+        enunciado: "Você recebe uma mensagem de um amigo dizendo que usou um assistente virtual para organizar uma festa surpresa. O que você pensa?",
         alternativas: [
             {
-                texto: "Ficaria empolgado em ver como a IA pode inovar na arte.",
-                afirmacao: "Vê a IA como uma ferramenta criativa capaz de expandir os limites artísticos."
+                texto: "Fico surpreso com a criatividade e quero usar um assistente virtual para organizar minha próxima festa.",
+                afirmacao: "Está entusiasmado com a ideia de usar tecnologia para planejar eventos de forma mais eficiente."
             },
             {
-                texto: "Ficaria desconfiado, pois acredito que a arte deve ser feita por humanos.",
-                afirmacao: "Defende a arte como uma expressão exclusivamente humana."
+                texto: "Prefiro planejar minha festa de maneira mais pessoal e não confio em assistentes virtuais.",
+                afirmacao: "Valoriza o toque humano no planejamento e organização de eventos."
             }
         ]
     }
