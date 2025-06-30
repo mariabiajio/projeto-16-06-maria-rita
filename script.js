@@ -13,7 +13,7 @@ const perguntas = [
             {
                 texto: "Os direitos humanos podem ser totalmente suspensos para garantir a paz e a ordem.",
                 afirmacao: " Os direitos humanos podem ser limitados de forma proporcional e temporária, respeitando a dignidade humana e com controle judicial."
-            },
+            
             {
                 texto: "Acha estranho e prefere não interagir.",
                 afirmacao: "Ficou receoso, mas ainda assim curioso sobre como essas tecnologias funcionam."
