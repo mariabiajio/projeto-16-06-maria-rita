@@ -3,6 +3,7 @@ const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
 const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
+
 const perguntas = [
     {
         enunciado: "Você encontra um robô no seu bairro que é capaz de organizar o lixo reciclável automaticamente. O que você faz?",
