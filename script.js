@@ -6,11 +6,13 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Você encontra um robô no seu bairro que responde perguntas sobre reciclagem. O que faz?",
+        enunciado: "Até que ponto os direitos humanos podem ser limitados em nome da segurança pública ou da ordem social?
+
+?",
         alternativas: [
             {
-                texto: "Começa a perguntar tudo sobre lixo e meio ambiente.",
-                afirmacao: "Mostrou grande interesse em aprender com a tecnologia para melhorar o planeta."
+                texto: "Os direitos humanos podem ser totalmente suspensos para garantir a paz e a ordem.",
+                afirmacao: " Os direitos humanos podem ser limitados de forma proporcional e temporária, respeitando a dignidade humana e com controle judicial."
             },
             {
                 texto: "Acha estranho e prefere não interagir.",
